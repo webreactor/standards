@@ -105,6 +105,7 @@ runTest(1, 23, "Message");
 ### Пример
 
 ```php
+<?php
 
 namespace Vendor\System\SubSystem;
 
