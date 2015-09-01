@@ -14,7 +14,9 @@
 
 Слова с большой буквы, без подчеркивания.
 
-`class CamelCase, class MyClass`
+`class CamelCase extends Base`
+
+`namespace Vendor\System\SubSystem;`
 
 **Методы и функции**
 
