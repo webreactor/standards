@@ -79,6 +79,25 @@ if (DEV_ENV) {
 } else {
     echo 0;
 }
+
+try {
+    ...
+} catch (Ex $e) {
+    ...
+}
+
+switch ($i) {
+    case 0:
+        echo "i equals 0";
+        break;
+    case 1:
+        echo "i equals 1";
+        break;
+    case 2:
+        echo "i equals 2";
+        break;
+}
+
 ```
 
 
