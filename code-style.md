@@ -76,6 +76,8 @@ class Test {
 ```php
 if (DEV_ENV) {
     echo 1;
+} else {
+    echo 0;
 }
 ```
 
