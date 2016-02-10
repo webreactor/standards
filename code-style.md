@@ -151,7 +151,20 @@ runTest(1, 23, "Message");
 
 ### Прочие правила
 
-- [Yoda conditions](https://en.wikipedia.org/wiki/Yoda_conditions) не используются.
+- Условия Йоды (условия вида `if (constant == variable)` вместо обычных `if (variable == constant)`) не используются.
+
+```php
+// Условие в нотации Йоды. Так писать нельзя.
+if (10 == $a) { 
+    ...
+}
+
+// Обычное условие.
+if ($a == 10) { 
+    ...
+}
+```
+
 
 ### Пример
 
