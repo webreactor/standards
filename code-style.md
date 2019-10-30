@@ -175,7 +175,7 @@ namespace Vendor\System\SubSystem;
 
 class Catalog extends BaseCatalog {
 
-	protected $size;
+    protected $size;
     protected $time_created;
     protected $tree;
     
